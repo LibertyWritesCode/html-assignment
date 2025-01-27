@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background: #aeda6c;">
+      <!--Build additional two web pages , the first is going to be a table about all the courses and schools existing at AltSchool Africa, 
+    with School of engineering we have frontend engineering, backend engineering, cloud engineering and cybersecurity. 
+    School of Product – Product Design, Marketing, Management. School of Data – Data Analysis, Science, Engineering.
+
+Second page is a page where you use all the media element existing in html to create powerful message about yourself. 
+Specially use picture element with more that 3 sources with responsiveness for mobile, tablet and laptop.
+
+table.html and media.html-->
+
+<h1>ABOUT ME</h1>
+<p>I'm creating media elements in HTML using elements and atributes features I recently learned in Alt School class.
+    In this section, I attached my picture using an Absolute URL and I used an alt attribute to write an 
+    image description in case the image link is broken, the browser in use cannot load the image because the image doesn't 
+    support the browser format, or the internet connection is very poor. 
+</p>
+
+<center>
+    <picture>
+        <img src="https://pangea.app/production/Pangea/Users/1c3d8580-a559-4dfa-a7af-2794fb586d68/profilePic/1678197616827_832x832"
+        alt="Liberty's image of herself for AltSchool project" height="300">
+    
+        <source srcset="https://pangea.app/production/Pangea/Users/1c3d8580-a559-4dfa-a7af-2794fb586d68/profilePic/1678197616827_832x832.jpg 500w 2x,
+        https://pangea.app/production/Pangea/Users/1c3d8580-a559-4dfa-a7af-2794fb586d68/profilePic/1678197616827_832x832.jpg 1000w 4x,
+        https://pangea.app/production/Pangea/Users/1c3d8580-a559-4dfa-a7af-2794fb586d68/profilePic/1678197616827_832x832.jpg 1500w 6x"
+        type="https://pangea.app/production/Pangea/Users/1c3d8580-a559-4dfa-a7af-2794fb586d68/profilePic/1678197616827_832x832/jpeg"
+        media="(min-width: 1025px)">
+    
+        <source srcset="https://pangea.app/production/Pangea/Users/1c3d8580-a559-4dfa-a7af-2794fb586d68/profilePic/1678197616827_832x832.png 500w 2x,
+        https://pangea.app/production/Pangea/Users/1c3d8580-a559-4dfa-a7af-2794fb586d68/profilePic/1678197616827_832x832.png 1000w 4x,
+        https://pangea.app/production/Pangea/Users/1c3d8580-a559-4dfa-a7af-2794fb586d68/profilePic/1678197616827_832x832.png 1500w 6x"
+        type="https://pangea.app/production/Pangea/Users/1c3d8580-a559-4dfa-a7af-2794fb586d68/profilePic/1678197616827_832x832/png"
+        media="(max-width: 1025px)" >
+    
+    </picture><hr>
+</center>
+
+
+<p><strong>AUDIO</strong></p>
+<p>This is me showcasing my use of audio as a media element. Here, I've attached an audio from the internet. The song title is 
+    Proud of Myself by Lil Xxel. This is a song I want to sing to myself by the time I'm done with this program.</p>
+<audio controls muted autoplay>
+    <source src="music.mp3" type="audio/mp3">
+    <source src="music.mp3" type="audio/ogg">
+    Your browser does not support this format
+</audio><hr>
+
+<p><strong>VIDEO</strong></p>
+<p>This is me showcasing my use of video as a media element. Here, I've attached an Alt School video to play around with.
+    I'm a proud Alt School Africa student and I'm grateful for the learning experience so far.
+</p>
+<video controls loop muted width="640" height="360">
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.mp4" type="video/webm">
+    Your browser does not support the video format.
+</video>
+
+<p><a href="assignmenttwo.html">Go back to page 1</a></p>
+
+
+</body>
+</html>
